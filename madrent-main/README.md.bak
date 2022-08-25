@@ -1,0 +1,19 @@
+### Application for a Construction company
+
+### Short description:
+
+This is an application for the customers of the company to request and to 
+order new constructions. The admins of the company can also manage users roles nad credentials.
+When the users ordered a construction, they can also track its progress.
+
+###OOP 2021
+
+To build the program JDK 8.0+ is required. The project was built in IntelliJ IDEA 2020.3.2 community edition.
+
+
+###Usage
+
+    1. Run the program
+    2. Login or register
+       (the default user is admin-admin)
+    3. Program features listed in the documentation...

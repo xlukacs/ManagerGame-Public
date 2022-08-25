@@ -1,0 +1,11 @@
+unnamed package
+core
+managers
+objects
+objects.inc
+roles
+scenes
+scenes.admin
+scenes.Customer
+scenes.guest
+scenes.profile

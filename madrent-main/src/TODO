@@ -1,0 +1,61 @@
+1. Move static value to placeholder at passwords                                                                        //DONE
+2. Add menu bar                                                                                                         //
+    - logout                                                                                                            //DONE
+    - profile                                                                                                           //
+        - settings                                                                                                      //DONE
+        - view profile                                                                                                  //DONE
+    - exit application                                                                                                  //DONE
+3. make back button at register                                                                                         //DONE
+4. main menu                                                                                                            //
+    - switch to admin mode                                                                                              //DONE
+    - view processes                                                                                                    //DONE
+    - status bar or indicator of used resources on construction
+5. Set size of menu items with code instead of space                                                                    //KINDA
+6. Reset input after leaving forms                                                                                      //DONE
+7. roles                                                                                                                //
+    - guest                                                                                                             //
+        - can order construction                                                                                        //DONE
+        - becomes customer if orders something                                                                          //DONE
+    - customer                                                                                                          //
+        - can also order more                                                                                           //DONE
+        - sees progress of its own construction                                                                         //DONE
+    - admin                                                                                                             //
+        - adds and changes user records                                                                                 //DONE
+    - construction worker                                                                                               //
+        - accepts sub jobs                                                                                              //DONE
+        - notifies construction manager if task is complete                                                             //DONE
+        - go on vacation
+    - construction manager                                                                                              //
+        - adds jobs to construction workers                                                                             //DONE
+        - gets notified if sub job is complete                                                                          //DONE
+        - notifiers architect if all sub tasks are complete
+    - architect                                                                                                         //
+        - manages all construction
+        - makes all sub jobs                                                                                            //DONE
+8. Make a main manager class which controls everything                                                                  //
+    - move all Managers into this class
+    - init it at program start then let it control the world
+9. Add roles when listing users                                                                                         //DONE
+10.Allow different sizes, when listing users
+11. Add Scenes:                                                                                                         //
+    - Settings                                                                                                          //DONE
+    - Show Profile                                                                                                      //DONE
+    - Admin userEdit                                                                                                    //DONE
+    - MenuScene                                                                                                         //DONE
+12. At register and login use centerThis()                                                                              //DONE
+13. Add custom exception                                                                                                //DONE
+14. Generic method when loading users to ArrayList in fileManager                                                       //DONE ?
+15. Check for class instance (instance of)                                                                              //SOMEWHAT DONE
+16. použitie vhniezdených tried a rozhraní – počíta sa iba použitie v aplikačnej logike, nie v GUI,                     << ??
+    pričom rozhrania musia byť vlastné                                                                                  //
+17. Add multithreading for workers jobs and stages for constructionManagers                                             //DONE
+18. Change methods to defaults, where necessary                                                                         //DONE?
+19. Serialisation somewhere??                                                                                           //DONE
+20. Add box/borderlayout to menu, so available buttons are distributed automatically                                    //DONE
+21. Give feedback when ordering construction, also if this process has failed.                                          //DONE
+22. Notify user, if the construction will be delayed (Architect:createConstruction)                                     //DONE
+23. Some logic would be nice how workers are assigned to managers based on the jobs size
+24. Confirm order in guest and recast it to customer                                                                    //DONE
+25. Add nobody is working on construction label to ViewConstruction
+26. Do something with the ID of the users, when changing anything...Duplicates...
+27. Set access modifiers where it was left out

@@ -1,0 +1,6 @@
+admin:password:admin:1;
+madrent:Password:admin:2;
+Bence:asd:user:3;
+User1:password:user:4;
+Madrentka:jelszo:user:5;
+Test1:test:user:6;
